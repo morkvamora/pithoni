@@ -16,7 +16,7 @@ if __name__ == "__main__":  # pragma: no cover
     if __name__ == "__main__":
     # Enter a drug name and a zip code
     drug_name = input("Enter drug name: ").strip()
-    zip_code = input("Enter zip code: ").strip()
+    zip_code = input("Enter zip code: ").strip() #good
 
     pharmacy_price_list: list | None = fetch_pharmacy_and_price_list(
         drug_name, zip_code
